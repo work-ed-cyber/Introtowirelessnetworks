@@ -61,9 +61,9 @@
 <h2>NICE Framework KSAs</h2>
 
 <ul>
-<li>K0113	Knowledge of different types of network communication (e.g., LAN, WAN, MAN, WLAN, WWAN).</li>
+<li>K0113 - Knowledge of different types of network communication (e.g., LAN, WAN, MAN, WLAN, WWAN).</li>
 <br>
-<li>K0428	Knowledge of encryption algorithms and tools for wireless local area networks (WLANs).</li>
+<li>K0428 - Knowledge of encryption algorithms and tools for wireless local area networks (WLANs).</li>
 <br>
 <li>K0442 - Knowledge of how converged technologies impact cyber operations (e.g., digital, telephony, wireless).</li>
 <br>
