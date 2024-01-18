@@ -1,20 +1,20 @@
-<h1> Lesson 5.5: Bug Bounties </h1>
+<h1> Lesson 6.1: Introduction to Wireless Networks </h1>
 <h2> Summary</h2>
 
-<p1>In this lesson, students will delve into the world of ethical hacking, exploring its financial prospects and societal implications. They will learn about the professional pathway of ethical hackers, the concept of bug bounties, and how organizations leverage these programs to enhance their security posture.</p1>
+<p1>In this lesson, students will be introduced to wireless networks, be able to define different components in a wireless network, understand how Wi-Fi works, and explore the security measures necessary to protect wireless networks.</p1>
 <br>
 
 <h2>Learning Objectives</h2>
 <ul>
-<li>Students will define ethical hacking and differentiate it from other forms of hacking.</li>
+<li>Students will understand the fundamental principles underlying wireless networks, including how data is transmitted and received wirelessly.</li>
   <br>
-<li>Students will understand the qualifications and skills necessary to become an ethical hacker.</li><br>
+<li>Students will be able to identify and define the key components in a wireless network such as routers, access points, and wireless adapters.</li><br>
   
-<li>Students will define what bug bounties are and understand their significance in identifying security vulnerabilities.</li><br>
+<li>Students will grasp how Wi-Fi technology enables wireless communication between devices and explore different Wi-Fi standards.</li><br>
 
-<li>Objective Summary and Learning Outcome.</li><br>
+<li>Students will learn about the various security measures and protocols like WEP, WPA, and WPA2/3 to safeguard wireless networks from unauthorized access and other threats.</li><br>
 
-<li>Students will understand the legal boundaries within which ethical hacking and bug bounty programs operate.</li>
+<li>Students will learn how to evaluate the performance of a wireless network and troubleshoot common wireless connectivity issues.</li>
 </ul>
 
 <h2>Vocabulary and Acronyms</h2>
@@ -22,56 +22,64 @@
 <ul>
 <li>
 
-  **Ethical Hacking**</li>
+  **Wireless Network**</li>
   
 <li>
 
-**Responsible Disclosure**</li>
+**AP - Access Point**</li>
   
 <li>
   
-**White Hat Hacker**</li>
+**WPA - Wi-Fi Protected Access**</li>
   
 <li>
   
-**Bug Bounty**</li>
+**Wi-Fi**</li>
   
 <li>
   
-  **CVE - Common Vulnerabilities and Exposures**</li>
+  **SSID - Service Set Idenitifier**</li>
   
 <li>
   
- **Black Hat Hacker**</li>
+ **Frequency Bands**</li>
 
   <li>
   
- **CVE/ID - CVE Identifier**</li>
+ **Wireless Adapter**</li>
 
  <li>
   
- **Grey Hat Hacker**</li>
+ **WEP - Wired Equivalent Privacy**</li>
+
+  <li>
+  
+ **Latency**</li>
 
 </ul>
 
 <h2>NICE Framework KSAs</h2>
 
 <ul>
-<li>K0427 - Knowledge of encryption algorithms and cyber capabilities/tools (e.g., SSL, PGP).</li>
+<li>K0113	Knowledge of different types of network communication (e.g., LAN, WAN, MAN, WLAN, WWAN).</li>
 <br>
-<li>S0138 - Skill in using Public-Key Infrastructure (PKI) encryption and digital signature capabilities into applications (e.g., S/MIME email, SSL traffic).</li>
+<li>K0428	Knowledge of encryption algorithms and tools for wireless local area networks (WLANs).</li>
 <br>
-<li>K0018 - Knowledge of encryption algorithms.</li>
+<li>K0442 - Knowledge of how converged technologies impact cyber operations (e.g., digital, telephony, wireless).</li>
 <br>
-<li>K0624 - Knowledge of Application Security Risks (e.g. Open Web Application Security Project Top 10 list).</li>
+<li>K0446 - Knowledge of how modern wireless communications systems impact cyber operations.</li>
 <br>
-<li>K0135 - Knowledge of web filtering technologies.</li>
+<li>K0600 - Knowledge of modern wireless communications systems' structure, architecture, and design.</li>
 <br>
-<li>K0398 - Knowledge of concepts related to websites (e.g., web servers/pages, hosting, DNS, registration, web languages such as HTML).</li>
+<li>S0182 - Skill in analyzing target communications internals and externals collected from wireless LANs.</li>
 <br>
-<li>K0444 - Knowledge of how Internet applications work (SMTP email, web-based email, chat clients, VOIP).</li>
+<li>S0276 - Skill in survey, collection, and analysis of wireless LAN metadata.
+</li>
 <br>
-<li>K0447 - Knowledge of how to collect, view, and identify essential information on targets of interest from metadata (e.g., email, http).</li> 
+<li>S0299 - Skill in wireless network target analysis, templating, and geolocation.
+</li> 
+<br>
+<li>A0100 - Ability to perform wireless collection procedures to include decryption capabilities/tools.</li>
 </ul>
 
 
@@ -80,274 +88,160 @@
 <br>
 
 
-<h2>Introduction</h2>
-In the face of escalating cyber threats, ethical hacking has emerged as a robust shield safeguarding the digital realm. This lesson delineates the ethos of ethical hacking, the lucrative allure of bug bounty programs, and the legal scaffolding that governs these domains.
+<h2> Comprehend Wireless Networking Basics</h2>
+Wireless networking is a technology that allows devices to connect to a network and communicate without being tethered by cables. This section delves into the fundamental concepts that underpin wireless networking:
 
-
-<h2>Understanding Ethical Hacking</h2>
-Ethical hacking, epitomized as the epitome of cybersecurity vigilance, entails authorized probing of systems to unveil potential vulnerabilities.
-<h3><ins>Types of Hackers:</ins></h3>
 <ul>
-  <li>White Hat (Ethical Hackers)</li>
-  <li>Black Hat (Malicious Hackers)</li>
-  <li>Grey Hat (Middle-ground)</li>
+
+<li><ins>Wireless Technology</ins></li>
+<ul>
+  <li>At the heart of wireless networking is the ability to transmit data using electromagnetic waves. These waves, often radio waves or infrared, are broadcast through the air, allowing devices to send and receive data without physical connections.</li>
+</ul>
+
+<li><ins>Wireless Network Types</ins></li>
+Various types of wireless networks cater to different needs:
+<ul>
+  <li>Wireless Personal Area Network (WPAN): Covers a small area, usually within a range of a few meters. Examples include Bluetooth and Zigbee.</li>
+   <li>Wireless Local Area Network (WLAN): Covers a larger area such as a home, office, or campus. Wi-Fi is the most common technology used for WLANs.</li>
+   <li>Wireless Metropolitan Area Network (WMAN): Spans a city or suburb, with WiMAX being a commonly used technology.</li>
+   <li>Wireless Wide Area Network (WWAN): Covers a large geographic area, often a country or continent, and is commonly used in cellular networks.</li>
+   </ul>
+<li><ins>Modulation and Frequency</ins></li>
+<ul>
+  <li>Wireless networks use modulation to encode data onto carrier waves for transmission. The frequency of the carrier wave is crucial, with common frequencies for wireless networking being 2.4 GHz and 5 GHz. Each frequency band has its advantages and disadvantages concerning range, bandwidth, and interference.</li>
+</ul>
+<li><ins>Wireless Standards</ins></li>
+<ul>
+  <li>Standards are vital for ensuring interoperability between devices from different manufacturers. The IEEE 802.11 family of standards is the most common set of protocols used for wireless networking, with various versions (e.g., 802.11n, 802.11ac, 802.11ax) offering different capabilities.</li>
+</ul>
+<li><ins>Wireless Access Points (WAPs)</ins></li>
+<ul>
+  <li>WAPs are crucial components of wireless networks, acting as the bridge between the wireless and wired segments of a network. They broadcast the network's SSID (Service Set Identifier), enabling wireless devices to discover and connect to the network.</li>
+</ul>
+<li><ins>Wireless Security</ins></li>
+<ul>
+  <li>Security is a significant concern in wireless networking due to the potential for eavesdropping and unauthorized access. Protocols such as WEP, WPA, and WPA3 are used to encrypt data transmissions and secure the network.</li>
+</ul>
+<li><ins>Network Architecture</ins></li>
+<ul>
+  <li>Wireless networks can operate in different modes, including infrastructure mode (where devices communicate through a central WAP) and ad-hoc mode (where devices communicate directly with each other).</li>
+</ul>
+<li><ins>Wireless Network Configuration</ins></li>
+<ul>
+  <li>Configuring a wireless network involves setting up the necessary hardware (e.g., routers and WAPs), selecting the appropriate wireless standard and frequency band, setting the network's SSID and security parameters, and ensuring that devices can connect to and communicate over the network reliably.</li>
+  <li>By understanding the basics of wireless networking, including the underlying technology, different types of wireless networks, standards, and essential components like WAPs, students will have a solid foundation for exploring more advanced wireless networking concepts and technologies.</li>
+</ul>
 </ul>
 
 
-<h2>Exploring the Professional Pathway of Ethical Hackers</h2>
-
-Ethical hacking has emerged as a crucial cybersecurity profession. Organizations across the globe are recognizing the indispensable value of ethical hackers in fortifying their digital assets against malicious threats. Here, we unfold the journey of becoming an ethical hacker, the skill sets required, the certifications that add a feather to one’s cap, and the various avenues through which ethical hackers can contribute to cybersecurity while generating income.
 
 
 
-<h3><ins>Certifications</ins></h3>
-Acquiring certifications is a stepping stone towards establishing credibility in the field of ethical hacking. These certifications attest to one's skills and knowledge in cybersecurity and ethical hacking.
+
+
+
+
+
+<h2>Identify Components of Wireless Networks</h2>
+
+Wireless networks comprise several integral components that work together to facilitate seamless communication between devices without the use of cables. Here's a more detailed breakdown of these components:
+
 <ul>
-  <li><ins>Certified Ethical Hacker (CEH)</ins></li>
+  <li>Router: A router is the cornerstone of any network, wired or wireless. In a wireless network, the router performs several critical functions:</li>
   <ul>
-    <li>Offered by EC-Council, the CEH certification equips individuals with the knowledge and skills to seek out vulnerabilities within an organization's systems.
-</li>
-    <li><a href="https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/">CEH Certification Details</a></li>
-  </ul>
-  <br>
-  <li><ins>Offensive Security Certified Professional (OSCP)</ins></li>
-  <ul>
-    <li>This hands-on certification offered by Offensive Security tests one's ability to conduct penetration tests in a controlled environment.</li>
-    <li><a href="https://www.offensive-security.com/pwk-oscp/">OSCP Certification Details</a></li>
+    <li>Routing: Directs data packets between devices on the local network (LAN) and external networks such as the internet (WAN), ensuring that the data reaches its intended destination.</li>
+  <li>Wireless Access Point (WAP): Most modern routers have built-in wireless access points, which emit radio waves to facilitate wireless communication with devices.</li>
+  <li>DHCP Server: Assigns IP addresses to devices on the network, enabling unique identification and communication between devices.</li>
+  <li>Firewall: Provides a basic level of security by controlling traffic between the LAN and WAN based on predefined rules.</li>
+  <li>Network Switch: Although primarily associated with wired networks, the switch functionality in a router enables wired devices to connect and communicate within the local network.</li>
   </ul>
 </ul>
-
-<h3><ins>Skill Sets</ins></h3>
-Proficiency in certain technical and soft skills is pivotal for a successful career in ethical hacking.
-<ul>
-<li><ins>Technical Skills</ins></li>
-<ul>
-<li>Knowledge of programming languages such as Python, JavaScript, and SQL.</li>
-<li>Proficiency in operating systems, particularly Linux.</li>
-<li>Understanding of networking and web technologies.</li>
-  </ul>
-<br>
-<li><ins>Soft Skills</ins></li>
-<ul>
-  <li>
-    
-  **Problem-Solving**: Ability to think like a hacker (creatively and analytically) to identify vulnerabilities.</li>
-  <li>
-
-  **Communication**: Effectively conveying findings and recommendations to non-technical stakeholders.</li>
-</ul>
-</ul>
-
-<h3><ins>Income Avenues</ins></h3>
-Ethical hackers have various avenues to ply their trade while making a significant impact in the realm of cybersecurity.
-<ul>
-  <br>
-<li><ins>Penetration Testing</ins></li>
-<ul>
-  <li>Conducting authorized simulated attacks to identify vulnerabilities in systems, networks, or applications.</li>
-  <br>
-</ul>
-<li><ins>Security Analysis</ins></li>
-<ul>
-  <li>Evaluating and ensuring the security of digital assets, and recommending measures to mitigate identified vulnerabilities.</li>
-  <br>
-</ul>
-<li><ins>Bug Bounty Hunting</ins></li>
-<ul>
-  <li>Participating in bug bounty programs to identify and report security vulnerabilities in exchange for rewards.
-</li>
-  <br>
-</ul>
-<li><ins>Cybersecurity Consulting</ins></li>
-<ul>
-  <li>Providing expertise and recommendations to organizations to bolster their cybersecurity posture.</li>
-  <br>
-</ul>
-<li><ins>Cybersecurity Training and Education</ins></li>
-<ul>
-  <li>Educating and training individuals or organizations on best practices in cybersecurity.</li>
-  <br>
-</ul>
-
-</ul>
-
-<h3><ins>Professional Associations and Communities</ins></h3>
-Joining professional associations and communities can foster networking, continuous learning, and staying updated on the latest trends and threats.<br>
-<br>
-<ul>
-  
-  <li><a href="https://www.isc2.org/">ISC2:</a> A global community of cybersecurity professionals.</li>
-  <br>
-  <li><a href="https://owasp.org/">OWASP:</a>Open Web Application Security Project, known for its top ten list of web security threats.</li>
-</ul>
-
-
-<h3><ins>Job Prospects</ins></h3>
-
-The demand for ethical hackers is soaring with the perpetual evolution of cyber threats.
-
-<ins>Job Titles:</ins>
-<ul>
-<li>Ethical Hacker</li>
-<li>Penetration Tester</li>
-<li>Security Consultant</li>
-<li>Security Analyst</li>
-</ul>
-
-<ins>Employment Sectors:</ins>
-<ul>
-<li>Financial Institutions</li>
-<li>Healthcare Organizations</li>
-<li>Government Agencies</li>
-<li>Tech Companies</li>
-</ul>
-
-
-
-<h2>Introduction to Bug Bounties</h2>
-Bug bounty programs are a collaborative initiative between companies and the ethical hacking community to identify vulnerabilities in systems, applications, or networks before malicious actors can exploit them.
-<ul>
-<li><ins>Platforms</ins></li>
-  <br>
-<ul>
-  <li><a href="https://www.hackerone.com/">HackerOne: </a>A leading bug bounty platform connecting businesses with ethical hackers. </li><br>
-  
-  <li><a href="https://www.bugcrowd.com/">Bugcrowd:</a> Another reputable platform facilitating bug bounty programs.</li>
-  <br>
-</ul>
-
-<li><ins>Types of Bounties</ins></li>
-<ul>
-  <li>
-    
-  **Public Bounties**: Open to all ethical hackers.</li>
-  <li>
-    
-  **Private Bounties**: Invitation-only, usually for experienced or specialized hackers.</li>
-</ul>
-
-<li><ins>Rewards</ins></li>
-<br>
-<ul>
-  <li>Monetary rewards, swag, or points which can be used for recognition.</li>
-</ul>
-<br>
-<li><ins>Reporting Process</ins></li>
-<br>
-<ul>
-  <li>Identifying a vulnerability, reporting it through the platform, and working with the company to provide more information if necessary.</li>
-</ul>
-</ul>
-
-<h2>Engagement in Bug Bounty Programs</h2>
-Active participation in bug bounty programs is a practical way to hone skills, contribute to cybersecurity, and earn rewards.<br>
-<ul>
-<li><ins>Process of Engagement</ins></li>
-<ul>
-  <li>
-    
-  **Discovery**: Finding vulnerabilities using various tools and techniques. </li>
-  <li>
-    
-  **Reporting**: Documenting the vulnerability, including how it can be replicated and the potential impact.</li>
-  <li>
-    
-  **Resolution**: Collaborating with the company to resolve the issue.</li>
-  <li>
-    
-  **Reward**: Receiving recognition or compensation for the effort.</li>
-</ul>
-
-
-<li><ins>Examples</ins></li>
-<br>
-<ul>
-  <li><a href="https://www.facebook.com/whitehat">Facebook Bug Bounty Program:</a> Facebook rewards ethical hackers for identifying vulnerabilities in its platforms.</li>
-</ul>
-</ul>
-</ul>
-
-
-
-<h2>Legal Frameworks Surrounding Ethical Hacking and Bug Bounties</h2>
-The legal landscape is crucial to ensure ethical hacking activities remain lawful and constructive.
-<ul>
-<li><ins>Responsible Disclosure</ins></li>
-<br>
-<ul>
-<li>Reporting vulnerabilities directly to the organization and giving them time to fix the issue before public disclosure.</li>
-  <br>
-</ul>
-
-<li><ins>Legal Agreements</ins></li>
-<br>
-<ul>
-<li>Adhering to Non-Disclosure Agreements (NDAs) and the terms of the bug bounty program.</li> 
-  <br>
-</ul>
-
-<li><ins>Overstepping Legal Boundaries</ins></li>
-<br>
-<ul>
-  <li>Understanding the repercussions of unauthorized access or testing outside the defined scope of a bug bounty program.</li>
-</ul>
-
-</ul>
-
-
-<h2>Evaluating Real-world Case Studies</h2>
-Analyzing real-world cases provides insights into the practical impact of ethical hacking and bug bounties.<br>
-<br>
-<ul>
-<li><ins>Case Study</ins></li>
-  <br>
-<ul>
-  <li><a href="https://www.hackerone.com/blog/hacker101-success-story">The tale of a bug bounty hunter’s first submission:</a> An inspiring journey of a bug bounty hunter.</li>
-</ul>
-</ul>
-
-
-
-<h2>Practical Application and Hands-on Exploration</h2>
-Hands-on experiences are crucial for honing skills and understanding the real-world dynamics of ethical hacking and bug bounties.
-<ul>
-<li><ins>Hands-on Platforms</ins></li>
-  <br>
-<ul>
-  <li><a href="https://www.hackthebox.eu/">Hack The Box:</a> A platform offering various challenges for honing hacking skills.</li><br>
-
-  <li><a href="https://ctftime.org/">CTF Time:</a> A platform hosting Capture The Flag (CTF) competitions.</li>
-</ul>
-<br>
-<li><ins>Simulated Ethical Hacking</ins></li>
-<br>
-<ul>
-  <li>Engaging in controlled environments to practice ethical hacking skills, such as using VMs like Metasploitable.</li>
-</ul>
-
-</ul>
-
-<h2>Conclusion</h2>
-The synergy between ethical hacking and bug bounties is a robust mechanism to enhance cybersecurity. Through hands-on engagements, legal awareness, and collaborative efforts, the digital realm becomes a more secure frontier against cyber threats.
-
-
-
-
-
-
-
-
-
-
-
 
  
+  <ul>
+  <li>Access Point:  An access point acts as a bridge between the wired and wireless segments of a network. Here are some key points regarding access points:</li>
+    <ul>
+  <li>Signal Distribution: Access points distribute the wireless signal, enabling Wi-Fi devices to connect to the network.</li>
+  <li>Network Extension: They extend the wireless network coverage, useful in large homes or offices where a single router's signal may not reach all areas.</li>
+  <li>Multiple SSIDs: Some advanced APs support multiple SSIDs, allowing the creation of separate networks for guests or different departments within an organization.</li>
+  <li>Security: Access points also enforce wireless security protocols, ensuring that only authorized devices can connect.</li>
+</ul>
+    </ul>
+
+  <ul>
+    <li>Wireless Adapter: Wireless adapters, also known as wireless network cards or Wi-Fi cards, enable devices to connect to wireless networks. Here's more about them:</li>
+    <ul>
+<li>Radio Transmitter and Receiver: They have built-in radio transmitters and receivers to send and receive data wirelessly.</li>
+<li>Antenna: They come with an antenna (internal or external) to transmit and receive radio signals.</li>
+<li>Driver Software: They require driver software to operate, which translates the data into a format that the wireless adapter can handle.</li>
+<li>Compatibility: Wireless adapters need to be compatible with the Wi-Fi standard used by the network (e.g., Wi-Fi 4, Wi-Fi 5, or Wi-Fi 6).</li>
+
+ </ul>
+  </ul>
+
+
+
+<h2>Understand Wi-Fi Operations</h2>
+Wi-Fi technology is the cornerstone of modern wireless networking, allowing devices to communicate wirelessly with each other and with wired networks. Here’s a more detailed exploration of Wi-Fi operations:
+
+<ul>
+  <li>Wi-Fi Standards</li><ul>
+<li>Wi-Fi technology has evolved over the years, with each new standard bringing better speeds, lower latency, and improved security. Some notable Wi-Fi standards include:</li>
+<ul>
+<li>Wi-Fi 4 (802.11n): This older standard supports a maximum data rate of 600 Mbps and operates in both 2.4 GHz and 5 GHz bands.</li>
+<li>Wi-Fi 5 (802.11ac): A faster standard, supporting data rates up to 3.46 Gbps and operating exclusively in the 5 GHz band, offering better performance and less interference.</li>
+<li>Wi-Fi 6 (802.11ax): The latest standard as of the training cut-off, offering even higher data rates (up to 9.6 Gbps), lower latency, and improved performance in congested areas.</li>
+  
+</ul>
+    
+  </ul>
+
+  
+  <li>Frequency Bands and Channels</li>
+  <ul>
+    <li>Wi-Fi networks operate on specific frequency bands:</li>
+    <ul>
+      <li>2.4 GHz Band: Offers better range but lower speeds, and it's more prone to interference due to other household devices operating in the same band.</li>
+      <li>5 GHz Band: Provides higher speeds and is less prone to interference but has a shorter range.</li>
+    </ul>
+    <li>Each band is divided into multiple channels to minimize interference and optimize network performance. Selecting a less congested channel can improve Wi-Fi performance.</li>
+  </ul>
+
+<li>Access Points and SSIDs</li>
+  <ul>
+  <li>Access Points (APs) broadcast a Service Set Identifier (SSID), which is the network name that devices see when searching for available Wi-Fi networks. A well-configured AP with a unique SSID and robust security settings is crucial for a secure and efficient Wi-Fi network.</li>
+</ul>
+  <li>Encryption and Security</li>
+  <ul>
+  <li>Security is paramount in Wi-Fi networks to protect data and prevent unauthorized access. Protocols like WPA3 offer robust encryption and security features to safeguard network communications.</li>
+</ul>
+  <li>Connection Process</li>
+  <ul>
+  <li>Devices connect to a Wi-Fi network by selecting the desired SSID, providing the necessary security credentials (e.g., a password), and obtaining an IP address from the network’s DHCP server. This process establishes a secure and reliable connection for data communication.</li>
+</ul>
+  <li>Data Transmission</li>
+  <ul>
+  <li>Once connected, devices communicate with the network and other devices by sending and receiving data packets wirelessly. The quality of this communication can be affected by factors like signal strength, interference, and network congestion.</li>
+</ul>
+  <li>Troubleshooting</li>
+  <ul>
+  <li>Common Wi-Fi issues include weak signal strength, slow speeds, and intermittent connectivity. Understanding the basics of Wi-Fi operation helps in troubleshooting these issues by checking for common culprits like interference, channel congestion, or incorrect security settings.</li>
+</ul>
+</ul>
+
+
+
+<h2>Conclusion</h2>
 
 
 <h2> Presentation</h2>
+
+<a href="https://docs.google.com/presentation/d/1qv4iHa9BTIzqrI_hMbnWq-_u1ncRzu2k/edit?usp=sharing&ouid=110228847857413878764&rtpof=true&sd=true"> Wireless Network Security </a></li>
 
 
 <h2> Hands-On Labs</h2>
 
 
 <h2>Additonal Resources</h2>
+
+<a href="https://docs.google.com/document/d/1_jyfUkcm-fa-GmSZF42EqiV_BLQwaIY1/edit?usp=sharing&ouid=110228847857413878764&rtpof=true&sd=true">Wireless Network Overview</a>
