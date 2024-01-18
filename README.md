@@ -89,7 +89,8 @@
 
 
 <h2> Comprehend Wireless Networking Basics</h2>
-Wireless networking is a technology that allows devices to connect to a network and communicate without being tethered by cables. This section delves into the fundamental concepts that underpin wireless networking:
+Wireless networking is a technology that allows devices to connect to a network and communicate without being tethered by cables. This section delves into the fundamental concepts that underpin wireless networking:<br>
+<br>
 
 <ul>
 
@@ -97,6 +98,7 @@ Wireless networking is a technology that allows devices to connect to a network 
 <ul>
   <li>At the heart of wireless networking is the ability to transmit data using electromagnetic waves. These waves, often radio waves or infrared, are broadcast through the air, allowing devices to send and receive data without physical connections.</li>
 </ul>
+<br>
 
 <li><ins>Wireless Network Types</ins></li>
 Various types of wireless networks cater to different needs:
@@ -106,26 +108,32 @@ Various types of wireless networks cater to different needs:
    <li>Wireless Metropolitan Area Network (WMAN): Spans a city or suburb, with WiMAX being a commonly used technology.</li>
    <li>Wireless Wide Area Network (WWAN): Covers a large geographic area, often a country or continent, and is commonly used in cellular networks.</li>
    </ul>
+   <br>
 <li><ins>Modulation and Frequency</ins></li>
 <ul>
   <li>Wireless networks use modulation to encode data onto carrier waves for transmission. The frequency of the carrier wave is crucial, with common frequencies for wireless networking being 2.4 GHz and 5 GHz. Each frequency band has its advantages and disadvantages concerning range, bandwidth, and interference.</li>
 </ul>
+<br>
 <li><ins>Wireless Standards</ins></li>
 <ul>
   <li>Standards are vital for ensuring interoperability between devices from different manufacturers. The IEEE 802.11 family of standards is the most common set of protocols used for wireless networking, with various versions (e.g., 802.11n, 802.11ac, 802.11ax) offering different capabilities.</li>
 </ul>
+<br>
 <li><ins>Wireless Access Points (WAPs)</ins></li>
 <ul>
   <li>WAPs are crucial components of wireless networks, acting as the bridge between the wireless and wired segments of a network. They broadcast the network's SSID (Service Set Identifier), enabling wireless devices to discover and connect to the network.</li>
 </ul>
+<br>
 <li><ins>Wireless Security</ins></li>
 <ul>
   <li>Security is a significant concern in wireless networking due to the potential for eavesdropping and unauthorized access. Protocols such as WEP, WPA, and WPA3 are used to encrypt data transmissions and secure the network.</li>
 </ul>
+<br>
 <li><ins>Network Architecture</ins></li>
 <ul>
   <li>Wireless networks can operate in different modes, including infrastructure mode (where devices communicate through a central WAP) and ad-hoc mode (where devices communicate directly with each other).</li>
 </ul>
+<br>
 <li><ins>Wireless Network Configuration</ins></li>
 <ul>
   <li>Configuring a wireless network involves setting up the necessary hardware (e.g., routers and WAPs), selecting the appropriate wireless standard and frequency band, setting the network's SSID and security parameters, and ensuring that devices can connect to and communicate over the network reliably.</li>
@@ -134,47 +142,71 @@ Various types of wireless networks cater to different needs:
 </ul>
 
 
-
-
-
-
-
-
-
-
 <h2>Identify Components of Wireless Networks</h2>
 
 Wireless networks comprise several integral components that work together to facilitate seamless communication between devices without the use of cables. Here's a more detailed breakdown of these components:
 
 <ul>
-  <li>Router: A router is the cornerstone of any network, wired or wireless. In a wireless network, the router performs several critical functions:</li>
+  <li>
+    
+  <ins>**Router:** </ins>  A router is the cornerstone of any network, wired or wireless. In a wireless network, the router performs several critical functions:</li>
   <ul>
-    <li>Routing: Directs data packets between devices on the local network (LAN) and external networks such as the internet (WAN), ensuring that the data reaches its intended destination.</li>
-  <li>Wireless Access Point (WAP): Most modern routers have built-in wireless access points, which emit radio waves to facilitate wireless communication with devices.</li>
-  <li>DHCP Server: Assigns IP addresses to devices on the network, enabling unique identification and communication between devices.</li>
-  <li>Firewall: Provides a basic level of security by controlling traffic between the LAN and WAN based on predefined rules.</li>
-  <li>Network Switch: Although primarily associated with wired networks, the switch functionality in a router enables wired devices to connect and communicate within the local network.</li>
+    <li>
+      
+  **Routing:** Directs data packets between devices on the local network (LAN) and external networks such as the internet (WAN), ensuring that the data reaches its intended destination.</li>
+  <li>
+    
+  **Wireless Access Point(WAP):** Most modern routers have built-in wireless access points, which emit radio waves to facilitate wireless communication with devices.</li>
+  <li>
+    
+  **DHCP Server:** Assigns IP addresses to devices on the network, enabling unique identification and communication between devices.</li>
+  <li>
+    
+  **Firewall:** Provides a basic level of security by controlling traffic between the LAN and WAN based on predefined rules.</li>
+  <li>
+   
+  **Network Switch:** Although primarily associated with wired networks, the switch functionality in a router enables wired devices to connect and communicate within the local network.</li>
   </ul>
 </ul>
 
  
   <ul>
-  <li>Access Point:  An access point acts as a bridge between the wired and wireless segments of a network. Here are some key points regarding access points:</li>
+  <li>
+    
+ <ins> **Access Point:** </ins> An access point acts as a bridge between the wired and wireless segments of a network. Here are some key points regarding access points:</li>
     <ul>
-  <li>Signal Distribution: Access points distribute the wireless signal, enabling Wi-Fi devices to connect to the network.</li>
-  <li>Network Extension: They extend the wireless network coverage, useful in large homes or offices where a single router's signal may not reach all areas.</li>
-  <li>Multiple SSIDs: Some advanced APs support multiple SSIDs, allowing the creation of separate networks for guests or different departments within an organization.</li>
-  <li>Security: Access points also enforce wireless security protocols, ensuring that only authorized devices can connect.</li>
+  <li>
+    
+  **Signal Distribution:** Access points distribute the wireless signal, enabling Wi-Fi devices to connect to the network.</li>
+  <li>
+    
+  **Network Extension:** They extend the wireless network coverage, useful in large homes or offices where a single router's signal may not reach all areas.</li>
+  <li>
+    
+  **Multiple SSIDs:** Some advanced APs support multiple SSIDs, allowing the creation of separate networks for guests or different departments within an organization.</li>
+  <li>
+    
+  **Security:** Access points also enforce wireless security protocols, ensuring that only authorized devices can connect.</li>
 </ul>
     </ul>
 
   <ul>
-    <li>Wireless Adapter: Wireless adapters, also known as wireless network cards or Wi-Fi cards, enable devices to connect to wireless networks. Here's more about them:</li>
+    <li>
+      
+<ins>  **Wireless Adapter**: </ins> Wireless adapters, also known as wireless network cards or Wi-Fi cards, enable devices to connect to wireless networks. Here's more about them:</li>
     <ul>
-<li>Radio Transmitter and Receiver: They have built-in radio transmitters and receivers to send and receive data wirelessly.</li>
-<li>Antenna: They come with an antenna (internal or external) to transmit and receive radio signals.</li>
-<li>Driver Software: They require driver software to operate, which translates the data into a format that the wireless adapter can handle.</li>
-<li>Compatibility: Wireless adapters need to be compatible with the Wi-Fi standard used by the network (e.g., Wi-Fi 4, Wi-Fi 5, or Wi-Fi 6).</li>
+<li>
+  
+**Radio Transmitter and Receiver:** They have built-in radio transmitters and receivers to send and receive data wirelessly.</li>
+<li>
+  
+**Antenna:** They come with an antenna (internal or external) to transmit and receive radio signals.</li>
+<li>
+  
+**Driver Software:** They require driver software to operate, which translates the data into a format that the wireless adapter can handle.</li>
+<li>
+  
+**Compatibility:** Wireless adapters need to be compatible with the Wi-Fi standard used by the network (e.g., Wi-Fi 4, Wi-Fi 5, or Wi-Fi 6).</li>
 
  </ul>
   </ul>
@@ -185,45 +217,68 @@ Wireless networks comprise several integral components that work together to fac
 Wi-Fi technology is the cornerstone of modern wireless networking, allowing devices to communicate wirelessly with each other and with wired networks. Here’s a more detailed exploration of Wi-Fi operations:
 
 <ul>
-  <li>Wi-Fi Standards</li><ul>
+  <li>
+    
+  <ins>**Wi-Fi Standards**</ins></li><ul>
 <li>Wi-Fi technology has evolved over the years, with each new standard bringing better speeds, lower latency, and improved security. Some notable Wi-Fi standards include:</li>
 <ul>
-<li>Wi-Fi 4 (802.11n): This older standard supports a maximum data rate of 600 Mbps and operates in both 2.4 GHz and 5 GHz bands.</li>
-<li>Wi-Fi 5 (802.11ac): A faster standard, supporting data rates up to 3.46 Gbps and operating exclusively in the 5 GHz band, offering better performance and less interference.</li>
-<li>Wi-Fi 6 (802.11ax): The latest standard as of the training cut-off, offering even higher data rates (up to 9.6 Gbps), lower latency, and improved performance in congested areas.</li>
+<li>
+  
+  **Wi-Fi 4 (802.11n):** This older standard supports a maximum data rate of 600 Mbps and operates in both 2.4 GHz and 5 GHz bands.</li>
+<li>
+  
+  **Wi-Fi 5 (802.11ac):** A faster standard, supporting data rates up to 3.46 Gbps and operating exclusively in the 5 GHz band, offering better performance and less interference.</li>
+<li>
+  
+  **Wi-Fi 6 (802.11ax):** The latest standard as of the training cut-off, offering even higher data rates (up to 9.6 Gbps), lower latency, and improved performance in congested areas.</li>
   
 </ul>
     
   </ul>
 
   
-  <li>Frequency Bands and Channels</li>
+  <li>
+    
+  <ins>**Frequency Bands and Channels**</ins></li>
   <ul>
     <li>Wi-Fi networks operate on specific frequency bands:</li>
     <ul>
-      <li>2.4 GHz Band: Offers better range but lower speeds, and it's more prone to interference due to other household devices operating in the same band.</li>
-      <li>5 GHz Band: Provides higher speeds and is less prone to interference but has a shorter range.</li>
+      <li>
+        
+  **2.4 GHz Band:** Offers better range but lower speeds, and it's more prone to interference due to other household devices operating in the same band.</li>
+      <li>**5 GHz Band:** Provides higher speeds and is less prone to interference but has a shorter range.</li>
     </ul>
+    <br>
     <li>Each band is divided into multiple channels to minimize interference and optimize network performance. Selecting a less congested channel can improve Wi-Fi performance.</li>
   </ul>
 
-<li>Access Points and SSIDs</li>
+<li>
+ 
+<ins>**Access Points and SSIDs**</ins></li>
   <ul>
   <li>Access Points (APs) broadcast a Service Set Identifier (SSID), which is the network name that devices see when searching for available Wi-Fi networks. A well-configured AP with a unique SSID and robust security settings is crucial for a secure and efficient Wi-Fi network.</li>
 </ul>
-  <li>Encryption and Security</li>
+  <li>
+    
+  <ins>**Encryption and Security**</ins></li>
   <ul>
   <li>Security is paramount in Wi-Fi networks to protect data and prevent unauthorized access. Protocols like WPA3 offer robust encryption and security features to safeguard network communications.</li>
 </ul>
-  <li>Connection Process</li>
+  <li>
+    
+  <ins>**Connection Process**</ins></li>
   <ul>
   <li>Devices connect to a Wi-Fi network by selecting the desired SSID, providing the necessary security credentials (e.g., a password), and obtaining an IP address from the network’s DHCP server. This process establishes a secure and reliable connection for data communication.</li>
 </ul>
-  <li>Data Transmission</li>
+  <li>
+    
+  <ins>**Data Transmission**</ins></li>
   <ul>
   <li>Once connected, devices communicate with the network and other devices by sending and receiving data packets wirelessly. The quality of this communication can be affected by factors like signal strength, interference, and network congestion.</li>
 </ul>
-  <li>Troubleshooting</li>
+  <li>
+    
+  <ins>**Troubleshooting**</ins></li>
   <ul>
   <li>Common Wi-Fi issues include weak signal strength, slow speeds, and intermittent connectivity. Understanding the basics of Wi-Fi operation helps in troubleshooting these issues by checking for common culprits like interference, channel congestion, or incorrect security settings.</li>
 </ul>
