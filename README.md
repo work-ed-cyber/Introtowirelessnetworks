@@ -294,21 +294,21 @@ Understanding wireless networks and their components is crucial in today's digit
 
 <ul>
 <li><b>Wireless Network:</b> A network that uses radio waves to connect devices without physical cables.</li><br>
-<br>
+
 <li><b>AP (Access Point):</b> A device that allows wireless devices to connect to a wired network.</li><br>
-<br>
+
 <li><b>WPA (Wi-Fi Protected Access):</b> A security protocol designed to secure wireless computer networks.</li><br>
-<br>
+
 <li><b>Wi-Fi:</b> A technology that allows electronic devices to connect to a wireless local area network (WLAN).</li><br>
-<br>
+
 <li><b>SSID (Service Set Identifier):</b> A unique identifier that names a wireless network.</li><br>
-<br>
+
 <li><b>Frequency Bands:</b> Specific ranges of radio frequencies used for transmitting data wirelessly.</li><br>
-<br>
+
 <li><b>Wireless Adapter:</b> A device that enables a computer to connect to a wireless network.</li><br>
-<br>
+
 <li><b>WEP (Wired Equivalent Privacy):</b> An outdated security protocol for wireless networks.</li><br>
-<br>
+
 <li><b>Latency:</b> The time delay between a signal being sent and received.
   
 </ul>
