@@ -61,25 +61,25 @@
 <h2>NICE Framework KSAs</h2>
 
 <ul>
-<li>K0113 - Knowledge of different types of network communication (e.g., LAN, WAN, MAN, WLAN, WWAN).</li>
+<li>K0113: Knowledge of different types of network communication (e.g., LAN, WAN, MAN, WLAN, WWAN).</li>
 <br>
-<li>K0428 - Knowledge of encryption algorithms and tools for wireless local area networks (WLANs).</li>
+<li>K0428: Knowledge of encryption algorithms and tools for wireless local area networks (WLANs).</li>
 <br>
-<li>K0442 - Knowledge of how converged technologies impact cyber operations (e.g., digital, telephony, wireless).</li>
+<li>K0442: Knowledge of how converged technologies impact cyber operations (e.g., digital, telephony, wireless).</li>
 <br>
-<li>K0446 - Knowledge of how modern wireless communications systems impact cyber operations.</li>
+<li>K0446: Knowledge of how modern wireless communications systems impact cyber operations.</li>
 <br>
-<li>K0600 - Knowledge of modern wireless communications systems' structure, architecture, and design.</li>
+<li>K0600: Knowledge of modern wireless communications systems' structure, architecture, and design.</li>
 <br>
-<li>S0182 - Skill in analyzing target communications internals and externals collected from wireless LANs.</li>
+<li>S0182: Skill in analyzing target communications internals and externals collected from wireless LANs.</li>
 <br>
-<li>S0276 - Skill in survey, collection, and analysis of wireless LAN metadata.
+<li>S0276: Skill in survey, collection, and analysis of wireless LAN metadata.
 </li>
 <br>
-<li>S0299 - Skill in wireless network target analysis, templating, and geolocation.
+<li>S0299: Skill in wireless network target analysis, templating, and geolocation.
 </li> 
 <br>
-<li>A0100 - Ability to perform wireless collection procedures to include decryption capabilities/tools.</li>
+<li>A0100: Ability to perform wireless collection procedures to include decryption capabilities/tools.</li>
 </ul>
 
 
@@ -287,6 +287,31 @@ Wi-Fi technology is the cornerstone of modern wireless networking, allowing devi
 
 
 <h2>Conclusion</h2>
+
+Understanding wireless networks and their components is crucial in today's digital world due to the pervasive use of wireless technology in both personal and professional settings. Wireless networks enable seamless connectivity and communication without the need for physical cables, facilitating mobility and convenience. Knowing the roles of key components like access points, wireless adapters, and security protocols (such as WPA and WEP) is essential for setting up and maintaining secure and efficient networks. Additionally, familiarity with terms like SSID and frequency bands helps in optimizing network performance and troubleshooting connectivity issues. In an era where cyber threats are prevalent, understanding wireless network security is vital for protecting sensitive information and ensuring the reliability and integrity of networked systems.
+
+<h2>Vocabulary</h2>
+
+<ul>
+<li><b>Wireless Network:</b> A network that uses radio waves to connect devices without physical cables.</li><br>
+<br>
+<li><b>AP (Access Point):</b> A device that allows wireless devices to connect to a wired network.</li><br>
+<br>
+<li><b>WPA (Wi-Fi Protected Access):</b> A security protocol designed to secure wireless computer networks.</li><br>
+<br>
+<li><b>Wi-Fi:</b> A technology that allows electronic devices to connect to a wireless local area network (WLAN).</li><br>
+<br>
+<li><b>SSID (Service Set Identifier):</b> A unique identifier that names a wireless network.</li><br>
+<br>
+<li><b>Frequency Bands:</b> Specific ranges of radio frequencies used for transmitting data wirelessly.</li><br>
+<br>
+<li><b>Wireless Adapter:</b> A device that enables a computer to connect to a wireless network.</li><br>
+<br>
+<li><b>WEP (Wired Equivalent Privacy):</b> An outdated security protocol for wireless networks.</li><br>
+<br>
+<li><b>Latency:</b> The time delay between a signal being sent and received.
+  
+</ul>
 
 
 <h2> Presentation</h2>
