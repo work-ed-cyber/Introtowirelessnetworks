@@ -321,6 +321,9 @@ Understanding wireless networks and their components is crucial in today's digit
 
 <h2> Hands-On Labs</h2>
 
+<h2>Games</h2>
+<a href="https://create.kahoot.it/share/quiz-lesson-6-1-introduction-to-wireless-networks/06ba0336-5482-46a4-afbc-dbc7daa016f2"> Kahoot: Introduction to Wireless Networks </a>
+
 
 <h2>Additonal Resources</h2>
 
