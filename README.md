@@ -315,8 +315,7 @@ Understanding wireless networks and their components is crucial in today's digit
 
 
 <h2> Presentation</h2>
-
-<a href="https://docs.google.com/presentation/d/1qv4iHa9BTIzqrI_hMbnWq-_u1ncRzu2k/edit?usp=sharing&ouid=110228847857413878764&rtpof=true&sd=true"> Wireless Network Security </a></li>
+<a href="https://docs.google.com/presentation/d/1uHNlRvnHuqIZoKwrNmZNL7_1RRJOzTJP/edit?usp=sharing&ouid=110228847857413878764&rtpof=true&sd=true"> Wireless Network Security </a></li>
 
 
 <h2> Hands-On Labs</h2>
