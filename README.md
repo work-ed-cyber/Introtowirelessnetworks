@@ -319,7 +319,9 @@ Understanding wireless networks and their components is crucial in today's digit
 
 
 <h2> Hands-On Labs</h2>
-<a href="https://github.com/work-ed-cyber/6.1-easy/tree/main">Introduction to Wireless Network Security Using Kali Linux </a> - Easy
+<a href="https://github.com/work-ed-cyber/6.1-easy/tree/main">Introduction to Wireless Network Security Using Kali Linux </a> - Easy<br>
+<br>
+<a href="https://github.com/work-ed-cyber/6.1---med/tree/main">You're Hired! Wi-Fi Wizard Wanted</a> - Medium
 
 <h2>Games</h2>
 <a href="https://create.kahoot.it/share/quiz-lesson-6-1-introduction-to-wireless-networks/06ba0336-5482-46a4-afbc-dbc7daa016f2"> Kahoot: Introduction to Wireless Networks </a>
