@@ -8,7 +8,7 @@
 <ul>
 <li>Students will understand the fundamental principles underlying wireless networks, including how data is transmitted and received wirelessly.</li>
   <br>
-<li>Students will be able to identify and define the key components in a wireless network such as routers, access points, and wireless adapters.</li><br>
+<li>Students will be able to identify and define the key components in a wireless network, such as routers, access points, and wireless adapters.</li><br>
   
 <li>Students will grasp how Wi-Fi technology enables wireless communication between devices and explore different Wi-Fi standards.</li><br>
 
@@ -246,7 +246,7 @@ Wi-Fi technology is the cornerstone of modern wireless networking, allowing devi
       <li>
         
   **2.4 GHz Band:** Offers better range but lower speeds, and it's more prone to interference due to other household devices operating in the same band.</li>
-      <li>**5 GHz Band:** Provides higher speeds and is less prone to interference but has a shorter range.</li>
+      <li>**5 GHz Band:** Provides higher speeds and is less prone to interference, but has a shorter range.</li>
     </ul>
     <br>
     <li>Each band is divided into multiple channels to minimize interference and optimize network performance. Selecting a less congested channel can improve Wi-Fi performance.</li>
@@ -327,6 +327,6 @@ Understanding wireless networks and their components is crucial in today's digit
 <a href="https://create.kahoot.it/share/quiz-lesson-6-1-introduction-to-wireless-networks/06ba0336-5482-46a4-afbc-dbc7daa016f2"> Kahoot: Introduction to Wireless Networks </a>
 
 
-<h2>Additonal Resources</h2>
+<h2>Additional Resources</h2>
 
 <a href="https://docs.google.com/document/d/1_jyfUkcm-fa-GmSZF42EqiV_BLQwaIY1/edit?usp=sharing&ouid=110228847857413878764&rtpof=true&sd=true">Wireless Network Overview</a>
